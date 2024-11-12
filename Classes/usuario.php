@@ -34,7 +34,7 @@
             }
             else
             {
-                $sql = $pdo->prepare("INSERT INTO usuario (nome, email, telefone, senha) VALUES (:n, :e, :t, :s ");
+                $sql = $pdo->prepare("INSERT INTO usuario (nome, email, telefone, senha) VALUES (:n, :e, :t, :s)");
                 $sql->bindValue(":n", $nome);
                 $sql->bindValue(":e", $email);
                 $sql->bindValue(":t", $telefone);

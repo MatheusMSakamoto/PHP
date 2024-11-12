@@ -38,10 +38,6 @@
         <p>Já cadastrado? Clique <a href="">aqui</a> para acessar. </p>
         
 
-
-
-
-
     </form>
 
     <?php
